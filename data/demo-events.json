@@ -1,5 +1,68 @@
 [
     {
+        "id": "cur_up",
+        "title": "Universo Paralello Festival",
+        "dateStart": "2026-12-27T16:00:00-03:00",
+        "city": "Ituberá",
+        "state": "BA",
+        "venue": "Praia de Pratigi",
+        "artists": [
+            "Alok",
+            "Astrix",
+            "Vegas",
+            "Swarup"
+        ],
+        "genres": [
+            "Psytrance",
+            "Techno"
+        ],
+        "priceMin": 850,
+        "ticketStatus": "available",
+        "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=600",
+        "ticketUrl": "https://www.ingresse.com"
+    },
+    {
+        "id": "cur_tw",
+        "title": "Time Warp Brasil",
+        "dateStart": "2026-05-01T20:00:00-03:00",
+        "city": "São Paulo",
+        "state": "SP",
+        "venue": "Vale do Anhangabaú",
+        "artists": [
+            "Charlotte de Witte",
+            "Vintage Culture"
+        ],
+        "genres": [
+            "Techno",
+            "Hard Techno"
+        ],
+        "priceMin": 480,
+        "ticketStatus": "available",
+        "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600",
+        "ticketUrl": "https://www.ingresse.com"
+    },
+    {
+        "id": "cur_xxx",
+        "title": "XXXPERIENCE Festival",
+        "dateStart": "2026-04-25T16:00:00-03:00",
+        "city": "Itu",
+        "state": "SP",
+        "venue": "Arena Maeda",
+        "artists": [
+            "Astrix",
+            "Skazi",
+            "Vermont"
+        ],
+        "genres": [
+            "Psytrance",
+            "Full-on"
+        ],
+        "priceMin": 175,
+        "ticketStatus": "available",
+        "image": "https://images.unsplash.com/photo-1540039155732-61ee4f308801?q=80&w=600",
+        "ticketUrl": "https://q2ingressos.com.br"
+    },
+    {
         "id": "tm_ZFIMVHtnMZ17Fb7k",
         "title": "Maiara & Maraisa - Cine Lido",
         "dateStart": "2026-10-24T01:00:00Z",
@@ -11,7 +74,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -30,7 +93,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -49,7 +112,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -68,31 +131,12 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/cac/79200b54-8f97-4909-a952-46af7db06cac_RETINA_PORTRAIT_3_2.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-bts-world-tour-arirang-28-10"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17k4GA",
-        "title": "BTS WORLD TOUR ARIRANG",
-        "dateStart": "2026-10-30T23:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "MorumBis",
-        "artists": [
-            "BTS"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Show"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/cac/79200b54-8f97-4909-a952-46af7db06cac_RETINA_PORTRAIT_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-bts-world-tour-arirang-30-10"
     },
     {
         "id": "tm_ZFIMVHtnMZ17Fb76",
@@ -106,31 +150,12 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/d64/4ac77bd9-91c9-4775-98e1-278306c6ad64_ARTIST_PAGE_3_2.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/capital-inicial-cine-lido"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17k4Gk",
-        "title": "BTS WORLD TOUR ARIRANG",
-        "dateStart": "2026-10-31T23:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "MorumBis",
-        "artists": [
-            "BTS"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Show"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/cac/79200b54-8f97-4909-a952-46af7db06cac_RETINA_PORTRAIT_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-bts-world-tour-arirang-31-10"
     },
     {
         "id": "tm_ZFIMVHtnMZ17AFPw",
@@ -144,7 +169,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -163,7 +188,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -182,7 +207,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -201,7 +226,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -220,7 +245,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -239,7 +264,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -258,7 +283,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -277,7 +302,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -296,7 +321,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -315,7 +340,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -334,7 +359,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -353,7 +378,7 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
@@ -372,11 +397,527 @@
         ],
         "genres": [
             "Eletrônica",
-            "Show"
+            "Festival"
         ],
         "priceMin": null,
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/558/5d550d5b-4e20-4f3c-9b1d-7a62544b9558_TABLET_LANDSCAPE_16_9.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/the-cat-empire-na-audio-sp"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17F40Y",
+        "title": "Nando Reis no Qualistage - RJ",
+        "dateStart": "2026-11-14T00:30:00Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "venue": "Qualistage",
+        "artists": [
+            "Nando Reis"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_ARTIST_PAGE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/nando-reis-no-qualistage---rj"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17kv0-",
+        "title": "The Cat Empire no Circo Voador - RJ",
+        "dateStart": "2026-11-14T00:30:00Z",
+        "city": "Brasil",
+        "state": "RJ",
+        "venue": "Circo Voador",
+        "artists": [
+            "The Cat Empire"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/558/5d550d5b-4e20-4f3c-9b1d-7a62544b9558_TABLET_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/the-cat-empire-no-circo-voador-rj"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17ae0f",
+        "title": "Martinho e Mart´nalia | Brava Arena Jockey",
+        "dateStart": "2026-11-14T23:00:00Z",
+        "city": "Brasil",
+        "state": "RJ",
+        "venue": "Brava Arena Jockey",
+        "artists": [
+            "Martinho da Vila"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/martinho-e-martnalia-brava-arena-jockey"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aF-0",
+        "title": "Guilherme Arantes | Tokio Marine Hall",
+        "dateStart": "2026-11-15T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Tokio Marine Hall",
+        "artists": [
+            null
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/guilherme-arantes-tokio-marine-hall"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17avFA",
+        "title": "Blitz | Ribeirão Preto",
+        "dateStart": "2026-11-15T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Multiplan Hall Ribeirão Shopping",
+        "artists": [
+            "Blitz"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/blitz-ribeirao-preto"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17kKFI",
+        "title": "CA7RIEL & Paco Amoroso: Free Spirits World Tour - São Paulo",
+        "dateStart": "2026-11-19T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Espaço Unimed -  AVCB nº774465-Alvará de Funcionamento 2024/05734-00",
+        "artists": [
+            "CA7RIEL & Paco Amoroso"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/6e5/ce33d894-56be-4c01-aa83-5bea7ddd46e5_RECOMENDATION_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-ca7riel-e-paco-amoroso-sao-paulo"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17Fb77",
+        "title": "Gilsons - Cine Lido",
+        "dateStart": "2026-11-20T01:00:00Z",
+        "city": "Brasil",
+        "state": "PR",
+        "venue": "Cine Lido",
+        "artists": [
+            "Gilsons"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/79f/22053b1e-c4f8-4bec-8904-5fabf522879f_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/gilsons-cine-lido"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FE1A",
+        "title": "Best Of Blues And Rock",
+        "dateStart": "2026-11-20T18:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Auditório do Ibirapuera (Platéia Externa)",
+        "artists": [
+            null,
+            "Eddie Vedder"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/7be/4e1e9428-29ec-401f-aa45-f1577614b7be_105421_TABLET_LANDSCAPE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/best-of-blues-and-rock"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17kKFE",
+        "title": "CA7RIEL & Paco Amoroso: Free Spirits World Tour - Rio de Janeiro",
+        "dateStart": "2026-11-21T00:00:00Z",
+        "city": "Brasil",
+        "state": "RJ",
+        "venue": "Vivo Rio",
+        "artists": [
+            "CA7RIEL & Paco Amoroso"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/6e5/ce33d894-56be-4c01-aa83-5bea7ddd46e5_RECOMENDATION_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-ca7riel-e-paco-amoroso-rio-de-janeiro"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aA0o",
+        "title": "14 Bis | The Cavern Club",
+        "dateStart": "2026-11-21T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "The Cavern Club",
+        "artists": [
+            "14 Bis"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/14-bis-the-cavern-club"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aA0p",
+        "title": "14 Bis e Beto Guedes | Ribeirão Preto",
+        "dateStart": "2026-11-22T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Multiplan Hall Ribeirão Shopping",
+        "artists": [
+            "14 Bis"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/14-bis-e-beto-guedes"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aA08",
+        "title": "Lets Groove | The Cavern Club",
+        "dateStart": "2026-11-22T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "The Cavern Club",
+        "artists": [
+            "Let's Groove"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/lets-groove-the-cavern-club"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17adZM",
+        "title": "Dino Fonseca | Qualistage",
+        "dateStart": "2026-11-22T00:30:00Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "venue": "Qualistage",
+        "artists": [
+            null
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/dino-fonseca-qualistage-2026"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FMQd",
+        "title": "Sandro Luiz | Qualistage",
+        "dateStart": "2026-11-22T19:00:00Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "venue": "Qualistage",
+        "artists": [
+            "Sandro Luiz"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_CUSTOM.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/sandro-luiz-qualistage"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FJ-x",
+        "title": "Rodrigo Teaser - Ribeirão Preto",
+        "dateStart": "2026-11-22T22:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Multiplan Hall Ribeirão Shopping",
+        "artists": [
+            "Rodrigo Teaser"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/b90/eae4e593-edbb-4135-8c02-3d29ce0dcb90_1246031_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/rodrigo-teaser-ribeirao-preto"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FyjO",
+        "title": "New Order | São Paulo (Data Extra)",
+        "dateStart": "2026-11-24T01:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Espaço Unimed -  AVCB nº774465-Alvará de Funcionamento 2024/05734-00",
+        "artists": [
+            "New Order"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/a6b/182bb789-0627-430d-8cc2-95a3c3224a6b_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/new-order-data-extra"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FJC_",
+        "title": "New Order - São Paulo",
+        "dateStart": "2026-11-26T01:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Espaço Unimed -  AVCB nº774465-Alvará de Funcionamento 2024/05734-00",
+        "artists": [
+            "New Order"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/a6b/182bb789-0627-430d-8cc2-95a3c3224a6b_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/new-order"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17a34Z",
+        "title": "Revelação & Xande de Pilares | Rio de Janeiro",
+        "dateStart": "2026-11-27T22:00:00Z",
+        "city": "Brasil",
+        "state": "RJ",
+        "venue": "Brava Arena Jockey",
+        "artists": [
+            null
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/revelacao-xande-de-pilares-rio-de-janeiro-nova-data-extra"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17Fg7v",
+        "title": "A Perfect Circle + Puscifer",
+        "dateStart": "2026-11-28T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Suhai Music Hall",
+        "artists": [
+            "A Perfect Circle",
+            "Puscifer"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/088/369098c4-977e-4c8b-9d36-a94735fd6088_CUSTOM.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/vg-a-perfect-circle-puscifer"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17Fgq6",
+        "title": "Fagner | Tokio Marine Hall",
+        "dateStart": "2026-11-28T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Tokio Marine Hall",
+        "artists": [
+            "Fagner"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/fagner-tokio-marine-hall"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FMQf",
+        "title": "Lagum | Brasília",
+        "dateStart": "2026-11-29T00:00:00Z",
+        "city": "Brasil",
+        "state": "DF",
+        "venue": "Centro de Convenções Ulysses Guimarães",
+        "artists": [
+            "Lagum"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-lagum-brasilia"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17Fgpb",
+        "title": "GIPSY KINGS® by Diego Baliardo | Suhai Music Hall",
+        "dateStart": "2026-11-29T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Suhai Music Hall",
+        "artists": [
+            "Gipsy Kings by Diego Baliardo"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/e67/b5261bbc-8ead-4202-965f-64e181a21e67_TABLET_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/gipsy-kings-by-diego-baliardo-suhai-music-hall"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17Fbe_",
+        "title": "Os Garotin - Cine Lido",
+        "dateStart": "2026-11-29T01:00:00Z",
+        "city": "Brasil",
+        "state": "PR",
+        "venue": "Cine Lido",
+        "artists": [
+            "Os Garotin"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/os-garotin-cine-lido"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FzfI",
+        "title": "Gipsy Kings part. Sidney Magal | Qualistage",
+        "dateStart": "2026-11-30T00:30:00Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "venue": "Qualistage",
+        "artists": [
+            "Gipsy Kings by Diego Baliardo",
+            "Sidney Magal"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/e67/b5261bbc-8ead-4202-965f-64e181a21e67_TABLET_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/gipsy-kings-part-sidney-magal-qualistage"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FMQv",
+        "title": "Daniel Caesar: Son Of Spergy Tour",
+        "dateStart": "2026-12-03T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Suhai Music Hall",
+        "artists": [
+            "Daniel Caesar"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/12f/b96760a8-2d4d-4e0b-88ca-21bf2be8b12f_ARTIST_PAGE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/daniel-caesar"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17ae03",
+        "title": "Guilherme Arantes | Brava Arena Jockey",
+        "dateStart": "2026-12-04T23:00:00Z",
+        "city": "Brasil",
+        "state": "RJ",
+        "venue": "Brava Arena Jockey",
+        "artists": [
+            null
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/guilherme-arantes-brava-arena-jockey"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17avQb",
+        "title": "Geriatricus | Qualistage",
+        "dateStart": "2026-12-05T00:30:00Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "venue": "Qualistage",
+        "artists": [
+            null
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/geriatricus-qualistage"
     }
 ]
