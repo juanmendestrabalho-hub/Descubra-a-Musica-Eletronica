@@ -2,24 +2,29 @@ const fs = require('fs');
 const path = require('path');
 
 async function fetchSympla() {
-    console.log(" A procurar eventos na Sympla...");
+    console.log("🔍 A procurar eventos na Sympla com disfarce de navegador...");
     
     const token = process.env.SYMPLA_TOKEN;
     if (!token) {
-        console.warn(" SYMPLA_TOKEN não configurado nas Secrets.");
+        console.warn("⚠️ SYMPLA_TOKEN não configurado nas Secrets.");
         return [];
     }
 
     try {
-        // Removemos o "&keyword=rave" para ele trazer festas reais sem filtro restrito
         const url = 'https://public-api.sympla.com.br/v3/events?category_id=4&sort_by=start_date';
         
+        // AQUI ESTÁ O SEGREDO: O disfarce (User-Agent) para não sermos bloqueados
         const resposta = await fetch(url, {
-            headers: { 's_token': token }
+            headers: { 
+                's_token': token,
+                'Accept': 'application/json',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            }
         });
         
         if (!resposta.ok) {
-            console.error(`Erro Sympla: ${resposta.status} - ${resposta.statusText}`);
+            const erroTexto = await resposta.text();
+            console.error(`❌ Erro Sympla: ${resposta.status} - Detalhes: ${erroTexto}`);
             return [];
         }
         
@@ -47,7 +52,7 @@ async function fetchSympla() {
             ticketUrl: evento.url
         }));
     } catch (erro) {
-        console.error(" Falha ao extrair dados da Sympla:", erro.message);
+        console.error("❌ Falha ao extrair dados da Sympla:", erro.message);
         return [];
     }
 }
@@ -71,9 +76,9 @@ async function atualizarEventos() {
         const conteudoJson = JSON.stringify(eventosSympla, null, 4);
         
         fs.writeFileSync(caminhoFicheiro, conteudoJson, 'utf8');
-        console.log(` SUCESSO: Site atualizado com ${eventosSympla.length} eventos reais da Sympla!`);
+        console.log(`✅ SUCESSO: Site atualizado com ${eventosSympla.length} eventos reais da Sympla!`);
     } catch (erro) {
-        console.error(" Erro ao guardar o ficheiro:", erro);
+        console.error("❌ Erro ao guardar o ficheiro:", erro);
         process.exit(1);
     }
 }
