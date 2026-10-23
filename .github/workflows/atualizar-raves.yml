@@ -22,7 +22,7 @@ jobs:
           echo "Estes são os ficheiros na raiz:"
           ls -la
           echo "Estes são os ficheiros na pasta scripts:"
-          ls -la scripts/ || echo "⚠️ A PASTA SCRIPTS NÃO EXISTE AQUI!"
+          ls -la scripts/ || echo " A PASTA SCRIPTS NÃO EXISTE AQUI!"
 
       - name: A configurar o ambiente Node.js
         uses: actions/setup-node@v4
@@ -40,5 +40,5 @@ jobs:
           git config --global user.name 'RaveFinderBot'
           git config --global user.email 'bot@ravefinder.com'
           git add .
-          git commit -m "🤖 Dados atualizados: Novas raves encontradas [skip ci]" || echo "Sem alterações de novos eventos hoje."
+          git commit -m " Dados atualizados: Novas raves encontradas [skip ci]" || echo "Sem alterações de novos eventos hoje."
           git push
