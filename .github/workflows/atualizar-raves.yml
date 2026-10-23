@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: '24'
 
+      - name: A instalar o Navegador Fantasma (Puppeteer)
+        run: npm install puppeteer
+
       - name: A executar o motor de busca de eventos
         env:
           EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
@@ -33,9 +36,8 @@ jobs:
           git config --global user.email 'bot@ravefinder.com'
           git add data/demo-events.json
           
-          # O robô agora é inteligente: só tenta atualizar se o ficheiro JSON tiver mudado
           if ! git diff-index --quiet HEAD; then
-            git commit -m "🤖 Dados atualizados: Eventos reais carregados [skip ci]"
+            git commit -m "🤖 Dados atualizados: O Navegador Fantasma encontrou novas raves [skip ci]"
             git pull --rebase origin main
             git push
           else
