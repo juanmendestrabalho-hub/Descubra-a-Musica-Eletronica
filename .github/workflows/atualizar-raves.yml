@@ -16,10 +16,18 @@ jobs:
       - name: A descarregar o repositório
         uses: actions/checkout@v4
 
+      - name: Raio-X dos ficheiros (Debug)
+        run: |
+          echo "Estou na pasta: $(pwd)"
+          echo "Estes são os ficheiros na raiz:"
+          ls -la
+          echo "Estes são os ficheiros na pasta scripts:"
+          ls -la scripts/ || echo "⚠️ A PASTA SCRIPTS NÃO EXISTE AQUI!"
+
       - name: A configurar o ambiente Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24' # Versão atualizada para remover o aviso
+          node-version: '24'
 
       - name: A executar o motor de busca de eventos
         env:
