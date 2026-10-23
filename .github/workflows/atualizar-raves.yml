@@ -16,14 +16,6 @@ jobs:
       - name: A descarregar o repositório
         uses: actions/checkout@v4
 
-      - name: Raio-X dos ficheiros (Debug)
-        run: |
-          echo "Estou na pasta: $(pwd)"
-          echo "Estes são os ficheiros na raiz:"
-          ls -la
-          echo "Estes são os ficheiros na pasta scripts:"
-          ls -la scripts/ || echo " A PASTA SCRIPTS NÃO EXISTE AQUI!"
-
       - name: A configurar o ambiente Node.js
         uses: actions/setup-node@v4
         with:
@@ -39,6 +31,13 @@ jobs:
         run: |
           git config --global user.name 'RaveFinderBot'
           git config --global user.email 'bot@ravefinder.com'
-          git add .
-          git commit -m " Dados atualizados: Novas raves encontradas [skip ci]" || echo "Sem alterações de novos eventos hoje."
-          git push
+          git add data/demo-events.json
+          
+          # O robô agora é inteligente: só tenta atualizar se o ficheiro JSON tiver mudado
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "🤖 Dados atualizados: Eventos reais carregados [skip ci]"
+            git pull --rebase origin main
+            git push
+          else
+            echo "Nenhuma alteração nos eventos hoje. O ficheiro manteve-se intacto."
+          fi
