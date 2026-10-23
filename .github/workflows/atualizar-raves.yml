@@ -2,8 +2,8 @@ name: Procurar Raves Diariamente
 
 on:
   schedule:
-    - cron: '0 3 * * *' # Roda às 3 da manhã
-  workflow_dispatch: # Permite rodar manualmente num botão
+    - cron: '0 3 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -19,10 +19,9 @@ jobs:
       - name: A configurar o ambiente Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24' # Versão atualizada para remover o aviso
 
       - name: A executar o motor de busca de eventos
-        # É AQUI que o robô injeta a chave secreta de forma segura
         env:
           EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
           SYMPLA_TOKEN: ${{ secrets.SYMPLA_TOKEN }}
@@ -32,6 +31,6 @@ jobs:
         run: |
           git config --global user.name 'RaveFinderBot'
           git config --global user.email 'bot@ravefinder.com'
-          git add data/demo-events.json
+          git add .
           git commit -m "🤖 Dados atualizados: Novas raves encontradas [skip ci]" || echo "Sem alterações de novos eventos hoje."
           git push
