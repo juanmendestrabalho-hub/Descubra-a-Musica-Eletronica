@@ -1,44 +1,382 @@
 [
     {
-        "id": "e001",
-        "title": "Universo Paralello 2026/2027",
-        "dateStart": "2026-12-27T16:00:00-03:00",
-        "city": "Ituberá",
-        "state": "BA",
-        "venue": "Praia de Pratigi",
+        "id": "tm_ZFIMVHtnMZ17Fb7k",
+        "title": "Maiara & Maraisa - Cine Lido",
+        "dateStart": "2026-10-24T01:00:00Z",
+        "city": "Brasil",
+        "state": "PR",
+        "venue": "Cine Lido",
         "artists": [
-            "Alok",
-            "Astrix",
-            "Vegas",
-            "Swarup"
+            "Maiara & Maraisa"
         ],
         "genres": [
-            "Psytrance",
-            "Techno"
+            "Eletrônica",
+            "Show"
         ],
-        "priceMin": 850,
+        "priceMin": null,
         "ticketStatus": "available",
-        "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=600",
-        "ticketUrl": "https://www.ingresse.com"
+        "image": "https://s1.ticketm.net/dam/a/c54/d52ebc8c-5eec-4706-b9c6-fee8325cdc54_TABLET_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/maiara-e-maraisa-cine-lido"
     },
     {
-        "id": "e002",
-        "title": "Time Warp Brasil",
-        "dateStart": "2026-05-01T20:00:00-03:00",
-        "city": "São Paulo",
-        "state": "SP",
-        "venue": "Vale do Anhangabaú",
+        "id": "tm_ZFIMVHtnMZ17AFPo",
+        "title": "Djavan - Belém",
+        "dateStart": "2026-10-25T00:00:00Z",
+        "city": "Brasil",
+        "state": "PA",
+        "venue": "Hangar",
         "artists": [
-            "Charlotte de Witte",
-            "Vintage Culture"
+            "Djavan"
         ],
         "genres": [
-            "Techno",
-            "Hard Techno"
+            "Eletrônica",
+            "Show"
         ],
-        "priceMin": 480,
+        "priceMin": null,
         "ticketStatus": "available",
-        "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600",
-        "ticketUrl": "https://www.ingresse.com"
+        "image": "https://s1.ticketm.net/dam/a/52a/ee9889b6-3eaf-4457-93cd-f311c0d6b52a_1802351_TABLET_LANDSCAPE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/djavan-venda-geral-belem"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17kfjM",
+        "title": "Oswaldo Montenegro no Qualistage - RJ",
+        "dateStart": "2026-10-25T00:30:00Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "venue": "Qualistage",
+        "artists": [
+            "Oswaldo Montenegro"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/oswaldo-montenegro-no-qualistage-rj"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17kfjN",
+        "title": "BTS WORLD TOUR ARIRANG",
+        "dateStart": "2026-10-28T23:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "MorumBis",
+        "artists": [
+            "BTS"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/cac/79200b54-8f97-4909-a952-46af7db06cac_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-bts-world-tour-arirang-28-10"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17k4GA",
+        "title": "BTS WORLD TOUR ARIRANG",
+        "dateStart": "2026-10-30T23:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "MorumBis",
+        "artists": [
+            "BTS"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/cac/79200b54-8f97-4909-a952-46af7db06cac_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-bts-world-tour-arirang-30-10"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17Fb76",
+        "title": "Capital Inicial - Cine Lido",
+        "dateStart": "2026-10-31T01:00:00Z",
+        "city": "Brasil",
+        "state": "PR",
+        "venue": "Cine Lido",
+        "artists": [
+            "Capital Inicial"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/d64/4ac77bd9-91c9-4775-98e1-278306c6ad64_ARTIST_PAGE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/capital-inicial-cine-lido"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17k4Gk",
+        "title": "BTS WORLD TOUR ARIRANG",
+        "dateStart": "2026-10-31T23:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "MorumBis",
+        "artists": [
+            "BTS"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/cac/79200b54-8f97-4909-a952-46af7db06cac_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-bts-world-tour-arirang-31-10"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17AFPw",
+        "title": "Djavan - Recife",
+        "dateStart": "2026-11-01T00:00:00Z",
+        "city": "Brasil",
+        "state": "PE",
+        "venue": "Classic Hall",
+        "artists": [
+            "Djavan"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/52a/ee9889b6-3eaf-4457-93cd-f311c0d6b52a_1802351_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/djavan-venda-geral-recife"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FVGY",
+        "title": "Elymar Santos | Tokio Marine Hall",
+        "dateStart": "2026-11-02T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Tokio Marine Hall",
+        "artists": [
+            "Elymar Santos"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/elymar-santos-tokio-marine-hall"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17Fbeb",
+        "title": "Victor & Leo - Cine Lido",
+        "dateStart": "2026-11-02T01:00:00Z",
+        "city": "Brasil",
+        "state": "PR",
+        "venue": "Cine Lido",
+        "artists": [
+            "Victor & Leo"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/victor-e-leo-cine-lido"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aou7",
+        "title": "Marisa Monte Beneficente | Brava Arena Jockey",
+        "dateStart": "2026-11-06T23:00:00Z",
+        "city": "Brasil",
+        "state": "RJ",
+        "venue": "Brava Arena Jockey",
+        "artists": [
+            "Marisa Monte"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/42b/fbc9ff08-e82c-404e-b6e3-d538007f542b_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/marisa-monte-beneficente-brava-arena-jockey"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17afCa",
+        "title": "Boca Livre | The Cavern Club",
+        "dateStart": "2026-11-07T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "The Cavern Club",
+        "artists": [
+            "Boca Livre"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/boca-livre-the-cavern-club"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17Fb7A",
+        "title": "Ana Carolina - Cine Lido",
+        "dateStart": "2026-11-07T01:00:00Z",
+        "city": "Brasil",
+        "state": "PR",
+        "venue": "Cine Lido",
+        "artists": [
+            "Ana Carolina"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/b8e/2504ea92-1d47-4170-a028-640fadbf4b8e_1217801_TABLET_LANDSCAPE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/ana-carolina-cine-lido"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17F4Zy",
+        "title": "Sepultura: Celebrating Life Through Death",
+        "dateStart": "2026-11-07T23:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Mercado Livre Arena Pacaembu",
+        "artists": [
+            "Sepultura"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/fc2/0cad0f29-81f5-40d0-88ec-48a83c5eafc2_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/sepultura-sao-paulo"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17afuK",
+        "title": "Boca Livre | Ribeirão Preto",
+        "dateStart": "2026-11-08T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Multiplan Hall Ribeirão Shopping",
+        "artists": [
+            "Boca Livre"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/boca-livre-multiplan-hall"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FMQp",
+        "title": "Lagum | Rio de Janeiro",
+        "dateStart": "2026-11-08T00:30:00Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "venue": "Qualistage",
+        "artists": [
+            "Lagum"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-lagum-rio-de-janeiro"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17a7Ab",
+        "title": "André Frateschi | The Cavern Club",
+        "dateStart": "2026-11-08T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "The Cavern Club",
+        "artists": [
+            null
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/andre-frateschi-the-cavern-club"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aFOs",
+        "title": "Humberto Gessinger | The Cavern Club",
+        "dateStart": "2026-11-11T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "The Cavern Club",
+        "artists": [
+            "Humberto Gessinger"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/humberto-gessinger-the-cavern-club"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17avup",
+        "title": "Blitz | The Cavern Club",
+        "dateStart": "2026-11-13T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "The Cavern Club",
+        "artists": [
+            "Blitz"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/blitz-the-cavern-club"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17kv0O",
+        "title": "The Cat Empire na Audio - SP",
+        "dateStart": "2026-11-13T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Audio",
+        "artists": [
+            "The Cat Empire"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Show"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/558/5d550d5b-4e20-4f3c-9b1d-7a62544b9558_TABLET_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/the-cat-empire-na-audio-sp"
     }
 ]
