@@ -1,0 +1,58 @@
+[
+    {
+        "id": "e001",
+        "title": "Universo Paralello Festival",
+        "dateStart": "2026-12-27T16:00:00-03:00",
+        "city": "Pratigi",
+        "state": "BA",
+        "venue": "Praia de Pratigi",
+        "artists": ["Alok", "Astrix", "Vegas", "Swarup"],
+        "genres": ["Psytrance", "Techno", "House"],
+        "priceMin": 850.00,
+        "ticketStatus": "available",
+        "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=600&auto=format&fit=crop",
+        "ticketUrl": "#"
+    },
+    {
+        "id": "e002",
+        "title": "Ame Club Special Showcase",
+        "dateStart": "2026-10-31T22:00:00-03:00",
+        "city": "Valinhos",
+        "state": "SP",
+        "venue": "Ame Club",
+        "artists": ["CamelPhat", "Gabe"],
+        "genres": ["Melodic Techno", "House"],
+        "priceMin": 120.00,
+        "ticketStatus": "available",
+        "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=600&auto=format&fit=crop",
+        "ticketUrl": "#"
+    },
+    {
+        "id": "e003",
+        "title": "Playground Music Festival",
+        "dateStart": "2026-11-15T18:00:00-03:00",
+        "city": "São Paulo",
+        "state": "SP",
+        "venue": "Arena Maeda",
+        "artists": ["Illusionize", "Mandragora"],
+        "genres": ["Full-on", "Techno"],
+        "priceMin": 90.00,
+        "ticketStatus": "available",
+        "image": "https://images.unsplash.com/photo-1540039155732-61ee4f308801?q=80&w=600&auto=format&fit=crop",
+        "ticketUrl": "#"
+    },
+    {
+        "id": "e004",
+        "title": "Hard Techno Resistance",
+        "dateStart": "2026-11-02T23:00:00-03:00",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "venue": "Galpão 54",
+        "artists": ["Amelie Lens", "Nico Moreno"],
+        "genres": ["Hard Techno"],
+        "priceMin": null,
+        "ticketStatus": "unavailable",
+        "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600&auto=format&fit=crop",
+        "ticketUrl": "#"
+    }
+]
