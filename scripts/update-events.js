@@ -10,7 +10,6 @@ async function fetchTicketmaster() {
     if (!token) return [];
 
     try {
-        // Procura eventos de Eletrónica no Brasil
         const url = `https://app.ticketmaster.com/discovery/v2/events.json?classificationName=Electronic&countryCode=BR&apikey=${token}`;
         const resposta = await fetch(url);
         if (!resposta.ok) return [];
@@ -42,7 +41,14 @@ async function fetchTicketmaster() {
 // ==========================================
 async function fetchBandsintown() {
     console.log("🎧 A procurar agendas de DJs no Bandsintown...");
-    const djs = ["Vintage Culture", "Alok", "Amelie Lens", "Astrix", "Mochakk", "Boris Brejcha", "Charlotte de Witte", "Peggy Gou", "Gabe", "Illusionize", "Victor Lou"];
+    
+    // REDE GIGANTE DE DJS PARA TESTAR!
+    const djs = [
+        "Vintage Culture", "Alok", "Amelie Lens", "Astrix", 
+        "Mochakk", "Boris Brejcha", "Charlotte de Witte", 
+        "Peggy Gou", "Gabe", "Illusionize", "Victor Lou", 
+        "Anna", "KVSH", "Cat Dealers", "Dubdogz"
+    ];
     let eventosEncontrados = [];
 
     for (const dj of djs) {
@@ -53,6 +59,7 @@ async function fetchBandsintown() {
 
             const dados = await resposta.json();
             if (Array.isArray(dados)) {
+                // Filtra para garantir que só traz eventos no Brasil
                 const eventosBr = dados.filter(e => e.venue?.country === "Brazil");
                 
                 const formatados = eventosBr.map(evento => ({
@@ -72,7 +79,7 @@ async function fetchBandsintown() {
                 eventosEncontrados = eventosEncontrados.concat(formatados);
             }
         } catch (e) {
-            // Ignora falhas de DJs individuais
+            // Ignora falhas de um DJ e avança para o próximo
         }
     }
     return eventosEncontrados;
@@ -111,19 +118,16 @@ async function fetchSympla() {
 async function atualizarEventos() {
     console.log("🤖 A INICIAR O SUPER MOTOR DE BUSCA EM PARALELO...");
 
-    // Executa todas as funções ao mesmo tempo para ser super rápido!
     const resultados = await Promise.all([
         fetchTicketmaster(),
         fetchBandsintown(),
         fetchSympla()
     ]);
 
-    // Junta todos os arrays que retornaram dados num único array gigante
     let todosOsEventos = resultados.flat();
 
     console.log(`📡 Resultados brutos obtidos: ${todosOsEventos.length} eventos globais.`);
 
-    // PLANO B: Se todas as APIs falharem ou devolverem 0, carrega a base premium manual
     if (todosOsEventos.length === 0) {
         console.log("⚠️ Nenhuma API retornou dados. A carregar o Plano B (Festivais Nacionais)...");
         todosOsEventos = [
@@ -149,28 +153,4 @@ async function atualizarEventos() {
                 "state": "SP",
                 "venue": "Vale do Anhangabaú",
                 "artists": ["Charlotte de Witte", "Vintage Culture"],
-                "genres": ["Techno", "Hard Techno"],
-                "priceMin": 480.00,
-                "ticketStatus": "available",
-                "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600",
-                "ticketUrl": "https://www.ingresse.com"
-            }
-        ];
-    }
-
-    // GUARDA OS DADOS FINAIS
-    try {
-        const pastaData = path.join(process.cwd(), 'data');
-        if (!fs.existsSync(pastaData)) fs.mkdirSync(pastaData, { recursive: true });
-
-        const caminhoFicheiro = path.join(pastaData, 'demo-events.json');
-        fs.writeFileSync(caminhoFicheiro, JSON.stringify(todosOsEventos, null, 4), 'utf8');
-        
-        console.log(`✅ EXCELENTE! Base de dados consolidada com ${todosOsEventos.length} eventos únicos!`);
-    } catch (erro) {
-        console.error("❌ Erro ao guardar o ficheiro:", erro);
-        process.exit(1);
-    }
-}
-
-atualizarEventos();
+                "genres
