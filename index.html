@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rave Finder Brasil | Descubra a Música Eletrônica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="Rave Finder Brasil Logo" width="40" height="40">
+                <h1>Rave Finder <span>Brasil</span></h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Pesquisar raves, DJs, cidades...">
+                <button id="clearSearch" aria-label="Limpar pesquisa">&times;</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-layout">
+        <aside class="sidebar">
+            <div class="filters">
+                <h3>Filtros</h3>
+                <div class="filter-group">
+                    <label for="stateFilter">Estado</label>
+                    <select id="stateFilter">
+                        <option value="">Todos os Estados</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="BA">Bahia</option>
+                        <option value="PR">Paraná</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="genreFilter">Gênero Musical</label>
+                    <select id="genreFilter">
+                        <option value="">Todos os Gêneros</option>
+                        <option value="Psytrance">Psytrance</option>
+                        <option value="Techno">Techno</option>
+                        <option value="Hard Techno">Hard Techno</option>
+                        <option value="Melodic Techno">Melodic Techno</option>
+                        <option value="Full-on">Full-on</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="priceFilter">Preço Máximo</label>
+                    <select id="priceFilter">
+                        <option value="">Qualquer Valor</option>
+                        <option value="50">Até R$ 50</option>
+                        <option value="100">Até R$ 100</option>
+                        <option value="200">Até R$ 200</option>
+                    </select>
+                </div>
+            </div>
+        </aside>
+
+        <section class="content">
+            <div class="status-bar">
+                <p id="resultCount">Buscando eventos...</p>
+            </div>
+            <div id="eventsGrid" class="events-grid">
+                <!-- Os cards dos eventos serão renderizados aqui pelo JS -->
+            </div>
+            <div class="load-more">
+                <button id="loadMoreBtn" class="btn-neon hidden">Carregar Mais</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Rave Finder Brasil. Projeto independente.</p>
+            <p class="source-info">Dados obtidos a partir de fontes oficiais. Os preços podem sofrer alterações.</p>
+        </div>
+    </footer>
+
+    
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
