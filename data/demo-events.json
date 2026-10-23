@@ -8,36 +8,14 @@
         "venue": "Praia de Pratigi",
         "artists": [
             "Alok",
-            "Astrix",
-            "Vegas"
+            "Astrix"
         ],
         "genres": [
-            "Psytrance",
-            "Techno"
+            "Psytrance"
         ],
         "priceMin": 850,
         "ticketStatus": "available",
-        "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=600",
-        "ticketUrl": "https://www.ingresse.com"
-    },
-    {
-        "id": "e002",
-        "title": "Time Warp Brasil",
-        "dateStart": "2026-05-01T20:00:00-03:00",
-        "city": "São Paulo",
-        "state": "SP",
-        "venue": "Vale do Anhangabaú",
-        "artists": [
-            "Charlotte de Witte",
-            "Vintage Culture"
-        ],
-        "genres": [
-            "Techno",
-            "Hard Techno"
-        ],
-        "priceMin": 480,
-        "ticketStatus": "available",
-        "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600",
+        "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=600&auto=format&fit=crop",
         "ticketUrl": "https://www.ingresse.com"
     }
 ]
