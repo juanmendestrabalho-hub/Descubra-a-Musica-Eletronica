@@ -42,7 +42,7 @@ async function fetchTicketmaster() {
 // ==========================================
 async function fetchBandsintown() {
     console.log("🎧 A procurar agendas de DJs no Bandsintown...");
-    const djs = ["Vintage Culture", "Alok", "Amelie Lens", "Astrix"]; // Lista de DJs para mapear
+    const djs = ["Vintage Culture", "Alok", "Amelie Lens", "Astrix", "Mochakk", "Boris Brejcha", "Charlotte de Witte", "Peggy Gou", "Gabe", "Illusionize", "Victor Lou"];
     let eventosEncontrados = [];
 
     for (const dj of djs) {
