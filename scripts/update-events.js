@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const puppeteer = require('puppeteer'); // A nova ferramenta fantasma!
+const puppeteer = require('puppeteer'); 
 
 async function atualizarEventos() {
     console.log(" A iniciar a recolha de eventos...");
@@ -9,20 +9,29 @@ async function atualizarEventos() {
     // TENTATIVA 1: O NAVEGADOR FANTASMA
     let browser;
     try {
-        console.log(" A iniciar o Google Chrome invisível...");
+        console.log("👻 A iniciar o Google Chrome invisível com disfarce avançado...");
         browser = await puppeteer.launch({
             headless: "new",
-            args: ['--no-sandbox', '--disable-setuid-sandbox']
+            protocolTimeout: 120000, // Aumenta o tempo limite para 2 minutos
+            args: [
+                '--no-sandbox', 
+                '--disable-setuid-sandbox',
+                '--disable-blink-features=AutomationControlled' // Remove a etiqueta de "robô"
+            ]
         });
         
         const page = await browser.newPage();
+        
+        // Aumenta o tempo de espera de navegação para 2 minutos (útil nos servidores do GitHub)
+        page.setDefaultNavigationTimeout(120000);
+        
         await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
         
-        console.log("🌐 A aceder à página principal da Sympla para furar o bloqueio...");
+        console.log(" A aceder à página principal da Sympla para furar o bloqueio...");
         // Vamos à página inicial da Sympla como um humano normal para ganhar cookies válidos
         await page.goto('https://www.sympla.com.br', { waitUntil: 'networkidle2' });
         
-        console.log("💉 A injetar código dentro do navegador para puxar a API...");
+        console.log(" A injetar código dentro do navegador para puxar a API...");
         const token = process.env.SYMPLA_TOKEN || '';
         
         // Tudo o que está dentro do page.evaluate corre DENTRO do Chrome invisível!
