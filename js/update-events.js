@@ -38,7 +38,7 @@ async function atualizarEventos() {
     }
 
     try {
-        // CORREÇÃO: Garante que a pasta "data" existe antes de guardar
+ 
         const pastaData = path.join(process.cwd(), 'data');
         if (!fs.existsSync(pastaData)) {
             fs.mkdirSync(pastaData, { recursive: true });
