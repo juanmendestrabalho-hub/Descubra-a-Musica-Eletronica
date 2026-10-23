@@ -4,8 +4,7 @@ const path = require('path');
 async function fetchShotgun() {
     console.log("🔍 A procurar eventos na Shotgun...");
     
-    // Opcional no futuro: Aqui entrará a integração real quando tivermos acesso à API da Shotgun
-    // Por enquanto, simulamos uma falha de chave para ativar imediatamente o Plano B
+
     return []; 
 }
 
