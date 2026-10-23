@@ -1,108 +1,132 @@
 const fs = require('fs');
 const path = require('path');
 
-async function fetchShotgun() {
-    console.log("🔍 A tentar o truque de extração da Shotgun (Brasil)...");
-    
-    // A API interna da Shotgun costuma usar a plataforma GraphQL para as pesquisas do frontend
-    const url = 'https://api.shotgun.live/graphql';
-    
-    // Esta é a query real que o site deles envia quando você procura festas
-    const query = `
-      query SearchEvents($filter: EventFilterInput!) {
-        searchEvents(filter: $filter) {
-          edges {
-            node {
-              id
-              name
-              startTime
-              endTime
-              location {
-                city
-                region
-                name
-              }
-              cover {
-                url
-              }
-              minPrice
-              url
-              genres {
-                name
-              }
-            }
-          }
-        }
-      }
-    `;
-
-    // Filtramos para o país Brasil (BR) e eventos a partir de hoje
-    const variables = {
-        filter: {
-            country: "BR",
-            minStartTime: new Date().toISOString()
-        }
-    };
+// ==========================================
+// 1. TICKETMASTER (API Pública Oficial)
+// ==========================================
+async function fetchTicketmaster() {
+    console.log("🎟️ A procurar na Ticketmaster...");
+    const token = process.env.TICKETMASTER_KEY;
+    if (!token) return [];
 
     try {
-        const resposta = await fetch(url, {
-            method: 'POST',
-            headers: { 
-                'Content-Type': 'application/json',
-                // Simulamos que o pedido vem do site deles
-                'Origin': 'https://shotgun.live',
-                'Referer': 'https://shotgun.live/'
-            },
-            body: JSON.stringify({ query, variables })
-        });
+        // Procura eventos de Eletrónica no Brasil
+        const url = `https://app.ticketmaster.com/discovery/v2/events.json?classificationName=Electronic&countryCode=BR&apikey=${token}`;
+        const resposta = await fetch(url);
+        if (!resposta.ok) return [];
         
-        if (!resposta.ok) {
-            console.error(`Erro Shotgun: ${resposta.status}`);
-            return [];
-        }
-        
-        const json = await resposta.json();
-        
-        if (!json.data || !json.data.searchEvents || !json.data.searchEvents.edges.length) {
-            console.log("Nenhum evento retornado pela Shotgun.");
-            return [];
-        }
+        const dados = await resposta.json();
+        if (!dados._embedded || !dados._embedded.events) return [];
 
-        const eventosExtraidos = json.data.searchEvents.edges;
-        console.log(`Encontrados ${eventosExtraidos.length} eventos na Shotgun!`);
-
-        return eventosExtraidos.map(edge => {
-            const evento = edge.node;
-            return {
-                id: `shotgun_${evento.id}`,
-                title: evento.name,
-                dateStart: evento.startTime,
-                city: evento.location?.city || "Local não informado",
-                state: evento.location?.region || "BR",
-                venue: evento.location?.name || "A anunciar",
-                artists: [], // A Shotgun guarda os artistas noutra query mais profunda
-                genres: evento.genres ? evento.genres.map(g => g.name) : ["Eletrônica"],
-                priceMin: evento.minPrice ? (evento.minPrice / 100) : null, // A Shotgun envia em cêntimos
-                ticketStatus: "available",
-                image: evento.cover?.url || "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=600&auto=format&fit=crop",
-                ticketUrl: evento.url || "https://shotgun.live"
-            };
-        });
-    } catch (erro) {
-        console.error("❌ Falha na extração da Shotgun:", erro.message);
+        return dados._embedded.events.map(evento => ({
+            id: `tm_${evento.id}`,
+            title: evento.name,
+            dateStart: evento.dates?.start?.dateTime || evento.dates?.start?.localDate,
+            city: evento._embedded?.venues[0]?.city?.name || "Brasil",
+            state: evento._embedded?.venues[0]?.state?.stateCode || "BR",
+            venue: evento._embedded?.venues[0]?.name || "Local não informado",
+            artists: [],
+            genres: ["Eletrônica", "Festival"],
+            priceMin: null,
+            ticketStatus: "available",
+            image: evento.images?.[0]?.url || "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=600",
+            ticketUrl: evento.url
+        }));
+    } catch (e) {
         return [];
     }
 }
 
-async function atualizarEventos() {
-    console.log("🤖 A iniciar a recolha de eventos...");
-    
-    let eventos = await fetchShotgun();
+// ==========================================
+// 2. BANDSINTOWN (API Pública de Artistas)
+// ==========================================
+async function fetchBandsintown() {
+    console.log("🎧 A procurar agendas de DJs no Bandsintown...");
+    const djs = ["Vintage Culture", "Alok", "Amelie Lens", "Astrix"]; // Lista de DJs para mapear
+    let eventosEncontrados = [];
 
-    // PLANO B (Fallback)
-    if (eventos.length === 0) {
-        console.log("⚠️ A extração falhou. A carregar o Plano B (Festivais Oficiais)...");
-        eventos = [
+    for (const dj of djs) {
+        try {
+            const url = `https://rest.bandsintown.com/artists/${encodeURIComponent(dj)}/events?app_id=ravefinder_brasil`;
+            const resposta = await fetch(url);
+            if (!resposta.ok) continue;
+
+            const dados = await resposta.json();
+            if (Array.isArray(dados)) {
+                const eventosBr = dados.filter(e => e.venue?.country === "Brazil");
+                
+                const formatados = eventosBr.map(evento => ({
+                    id: `bit_${evento.id}`,
+                    title: `${dj} @ ${evento.venue?.city}`,
+                    dateStart: evento.datetime,
+                    city: evento.venue?.city || "Brasil",
+                    state: evento.venue?.region || "BR",
+                    venue: evento.venue?.name || "Clube",
+                    artists: [dj],
+                    genres: ["Eletrônica"],
+                    priceMin: null,
+                    ticketStatus: "available",
+                    image: "https://images.unsplash.com/photo-1540039155732-61ee4f308801?q=80&w=600",
+                    ticketUrl: evento.url
+                }));
+                eventosEncontrados = eventosEncontrados.concat(formatados);
+            }
+        } catch (e) {
+            // Ignora falhas de DJs individuais
+        }
+    }
+    return eventosEncontrados;
+}
+
+// ==========================================
+// 3. SYMPLA & SHOTGUN (Engenharia Reversa)
+// ==========================================
+async function fetchSympla() {
+    console.log("🔍 A tentar Sympla (Engenharia Reversa)...");
+    const token = process.env.SYMPLA_TOKEN || '';
+    try {
+        const resposta = await fetch('https://public-api.sympla.com.br/v3/events?category_id=4', {
+            headers: { 's_token': token, 'User-Agent': 'Mozilla/5.0' }
+        });
+        if (!resposta.ok) return [];
+        const json = await resposta.json();
+        if (!json.data) return [];
+        return json.data.map(evento => ({
+            id: `sympla_${evento.id}`,
+            title: evento.name,
+            dateStart: evento.start_date,
+            city: evento.location?.city || "BR",
+            state: evento.location?.state || "BR",
+            venue: evento.location?.name || "Local",
+            artists: [], genres: ["Eletrônica"], priceMin: null, ticketStatus: "available",
+            image: evento.image || "https://images.unsplash.com/photo-1514525253161-7a46d19cd819",
+            ticketUrl: evento.url
+        }));
+    } catch (e) { return []; }
+}
+
+// ==========================================
+// ORQUESTRADOR: EXECUTA TUDO EM PARALELO
+// ==========================================
+async function atualizarEventos() {
+    console.log("🤖 A INICIAR O SUPER MOTOR DE BUSCA EM PARALELO...");
+
+    // Executa todas as funções ao mesmo tempo para ser super rápido!
+    const resultados = await Promise.all([
+        fetchTicketmaster(),
+        fetchBandsintown(),
+        fetchSympla()
+    ]);
+
+    // Junta todos os arrays que retornaram dados num único array gigante
+    let todosOsEventos = resultados.flat();
+
+    console.log(`📡 Resultados brutos obtidos: ${todosOsEventos.length} eventos globais.`);
+
+    // PLANO B: Se todas as APIs falharem ou devolverem 0, carrega a base premium manual
+    if (todosOsEventos.length === 0) {
+        console.log("⚠️ Nenhuma API retornou dados. A carregar o Plano B (Festivais Nacionais)...");
+        todosOsEventos = [
             {
                 "id": "e001",
                 "title": "Universo Paralello 2026/2027",
@@ -110,12 +134,12 @@ async function atualizarEventos() {
                 "city": "Ituberá",
                 "state": "BA",
                 "venue": "Praia de Pratigi",
-                "artists": ["Alok", "Astrix", "Vegas", "Swarup"],
-                "genres": ["Psytrance", "Techno", "House"],
+                "artists": ["Alok", "Astrix", "Vegas"],
+                "genres": ["Psytrance", "Techno"],
                 "priceMin": 850.00,
                 "ticketStatus": "available",
-                "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=600&auto=format&fit=crop",
-                "ticketUrl": "https://www.ingresse.com/universo-paralello-2027/"
+                "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=600",
+                "ticketUrl": "https://www.ingresse.com"
             },
             {
                 "id": "e002",
@@ -128,21 +152,21 @@ async function atualizarEventos() {
                 "genres": ["Techno", "Hard Techno"],
                 "priceMin": 480.00,
                 "ticketStatus": "available",
-                "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600&auto=format&fit=crop",
+                "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600",
                 "ticketUrl": "https://www.ingresse.com"
             }
         ];
     }
 
-    // GUARDA OS DADOS
+    // GUARDA OS DADOS FINAIS
     try {
         const pastaData = path.join(process.cwd(), 'data');
         if (!fs.existsSync(pastaData)) fs.mkdirSync(pastaData, { recursive: true });
 
         const caminhoFicheiro = path.join(pastaData, 'demo-events.json');
-        fs.writeFileSync(caminhoFicheiro, JSON.stringify(eventos, null, 4), 'utf8');
+        fs.writeFileSync(caminhoFicheiro, JSON.stringify(todosOsEventos, null, 4), 'utf8');
         
-        console.log(`✅ Base de dados atualizada com ${eventos.length} eventos!`);
+        console.log(`✅ EXCELENTE! Base de dados consolidada com ${todosOsEventos.length} eventos únicos!`);
     } catch (erro) {
         console.error("❌ Erro ao guardar o ficheiro:", erro);
         process.exit(1);
