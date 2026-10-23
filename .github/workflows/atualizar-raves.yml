@@ -21,13 +21,7 @@ jobs:
         with:
           node-version: '24'
 
-      - name: A instalar o Navegador Fantasma (Puppeteer)
-        run: npm install puppeteer
-
       - name: A executar o motor de busca de eventos
-        env:
-          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
-          SYMPLA_TOKEN: ${{ secrets.SYMPLA_TOKEN }}
         run: node scripts/update-events.js
 
       - name: A guardar (commit) os novos eventos no repositório
@@ -37,7 +31,7 @@ jobs:
           git add data/demo-events.json
           
           if ! git diff-index --quiet HEAD; then
-            git commit -m "🤖 Dados atualizados: O Navegador Fantasma encontrou novas raves [skip ci]"
+            git commit -m "🤖 Dados atualizados: Novos festivais adicionados [skip ci]"
             git pull --rebase origin main
             git push
           else
