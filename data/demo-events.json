@@ -63,25 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17Fb7k",
-        "title": "Maiara & Maraisa - Cine Lido",
-        "dateStart": "2026-10-24T01:00:00Z",
-        "city": "Brasil",
-        "state": "PR",
-        "venue": "Cine Lido",
-        "artists": [
-            "Maiara & Maraisa"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/c54/d52ebc8c-5eec-4706-b9c6-fee8325cdc54_TABLET_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/maiara-e-maraisa-cine-lido"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17AFPo",
         "title": "Djavan - Belém",
         "dateStart": "2026-10-25T00:00:00Z",
@@ -919,5 +900,24 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/geriatricus-qualistage"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aa7a",
+        "title": "Capital Inicial | Brava Arena Jockey",
+        "dateStart": "2026-12-05T23:00:00Z",
+        "city": "Brasil",
+        "state": "RJ",
+        "venue": "Brava Arena Jockey",
+        "artists": [
+            "Capital Inicial"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/d64/4ac77bd9-91c9-4775-98e1-278306c6ad64_ARTIST_PAGE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/capital-inicial-brava-arena-jockey"
     }
 ]
