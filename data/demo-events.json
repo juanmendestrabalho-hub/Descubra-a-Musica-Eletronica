@@ -63,44 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17AFPo",
-        "title": "Djavan - Belém",
-        "dateStart": "2026-10-25T00:00:00Z",
-        "city": "Brasil",
-        "state": "PA",
-        "venue": "Hangar",
-        "artists": [
-            "Djavan"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/52a/ee9889b6-3eaf-4457-93cd-f311c0d6b52a_1802351_TABLET_LANDSCAPE_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/djavan-venda-geral-belem"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17kfjM",
-        "title": "Oswaldo Montenegro no Qualistage - RJ",
-        "dateStart": "2026-10-25T00:30:00Z",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "venue": "Qualistage",
-        "artists": [
-            "Oswaldo Montenegro"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_PORTRAIT_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/oswaldo-montenegro-no-qualistage-rj"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17kfjN",
         "title": "BTS WORLD TOUR ARIRANG",
         "dateStart": "2026-10-28T23:00:00Z",
@@ -919,5 +881,43 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/d64/4ac77bd9-91c9-4775-98e1-278306c6ad64_ARTIST_PAGE_3_2.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/capital-inicial-brava-arena-jockey"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FMQ4",
+        "title": "Lagum | Ribeirão Preto",
+        "dateStart": "2026-12-06T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Multiplan Hall Ribeirão Shopping",
+        "artists": [
+            "Lagum"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-lagum-ribeirao-preto"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17k6_7",
+        "title": "Djavan - Maceió",
+        "dateStart": "2026-12-06T00:00:00Z",
+        "city": "Brasil",
+        "state": "AL",
+        "venue": "Estacionamento do Jaraguá",
+        "artists": [
+            "Djavan"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/52a/ee9889b6-3eaf-4457-93cd-f311c0d6b52a_1802351_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/djavan-venda-geral-maceio"
     }
 ]
