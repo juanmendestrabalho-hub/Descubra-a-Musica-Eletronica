@@ -63,9 +63,9 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17kfjN",
+        "id": "tm_ZFIMVHtnMZ17k4GA",
         "title": "BTS WORLD TOUR ARIRANG",
-        "dateStart": "2026-10-28T23:00:00Z",
+        "dateStart": "2026-10-30T23:00:00Z",
         "city": "Brasil",
         "state": "SP",
         "venue": "MorumBis",
@@ -79,7 +79,7 @@
         "priceMin": null,
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/cac/79200b54-8f97-4909-a952-46af7db06cac_RETINA_PORTRAIT_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-bts-world-tour-arirang-28-10"
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-bts-world-tour-arirang-30-10"
     },
     {
         "id": "tm_ZFIMVHtnMZ17Fb76",
@@ -919,5 +919,24 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/52a/ee9889b6-3eaf-4457-93cd-f311c0d6b52a_1802351_RETINA_PORTRAIT_3_2.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/djavan-venda-geral-maceio"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aFAM",
+        "title": "Ferrugem | Qualistage",
+        "dateStart": "2026-12-06T00:30:00Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "venue": "Qualistage",
+        "artists": [
+            "Ferrugem"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/ferrugem-qualistage"
     }
 ]
