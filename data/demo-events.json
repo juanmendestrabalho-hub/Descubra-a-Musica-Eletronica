@@ -63,9 +63,9 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17k4GA",
+        "id": "tm_ZFIMVHtnMZ17k4Gk",
         "title": "BTS WORLD TOUR ARIRANG",
-        "dateStart": "2026-10-30T23:00:00Z",
+        "dateStart": "2026-10-31T23:00:00Z",
         "city": "Brasil",
         "state": "SP",
         "venue": "MorumBis",
@@ -79,26 +79,7 @@
         "priceMin": null,
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/cac/79200b54-8f97-4909-a952-46af7db06cac_RETINA_PORTRAIT_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-bts-world-tour-arirang-30-10"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17Fb76",
-        "title": "Capital Inicial - Cine Lido",
-        "dateStart": "2026-10-31T01:00:00Z",
-        "city": "Brasil",
-        "state": "PR",
-        "venue": "Cine Lido",
-        "artists": [
-            "Capital Inicial"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/d64/4ac77bd9-91c9-4775-98e1-278306c6ad64_ARTIST_PAGE_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/capital-inicial-cine-lido"
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-bts-world-tour-arirang-31-10"
     },
     {
         "id": "tm_ZFIMVHtnMZ17AFPw",
@@ -938,5 +919,43 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/ferrugem-qualistage"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aFvE",
+        "title": "Maria Rita: Redescobrir Vol. 2 | João Pessoa",
+        "dateStart": "2026-12-06T21:00:00Z",
+        "city": "Brasil",
+        "state": "PB",
+        "venue": "Teatro Pedra do Reino",
+        "artists": [
+            "Maria Rita"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/maria-rita-redescobrir-vol-2--joao-pessoa-venda-geral"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FMQK",
+        "title": "Lagum | Porto Alegre",
+        "dateStart": "2026-12-12T00:30:00Z",
+        "city": "Brasil",
+        "state": "RS",
+        "venue": "Auditório Araújo Vianna",
+        "artists": [
+            "Lagum"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-lagum-porto-alegre"
     }
 ]
