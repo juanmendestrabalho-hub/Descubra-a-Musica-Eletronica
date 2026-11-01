@@ -63,44 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17k4Gk",
-        "title": "BTS WORLD TOUR ARIRANG",
-        "dateStart": "2026-10-31T23:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "MorumBis",
-        "artists": [
-            "BTS"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/cac/79200b54-8f97-4909-a952-46af7db06cac_RETINA_PORTRAIT_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-bts-world-tour-arirang-31-10"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17AFPw",
-        "title": "Djavan - Recife",
-        "dateStart": "2026-11-01T00:00:00Z",
-        "city": "Brasil",
-        "state": "PE",
-        "venue": "Classic Hall",
-        "artists": [
-            "Djavan"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/52a/ee9889b6-3eaf-4457-93cd-f311c0d6b52a_1802351_RETINA_PORTRAIT_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/djavan-venda-geral-recife"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17FVGY",
         "title": "Elymar Santos | Tokio Marine Hall",
         "dateStart": "2026-11-02T00:00:00Z",
@@ -957,5 +919,43 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-lagum-porto-alegre"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FMQo",
+        "title": "Lagum | Florianópolis",
+        "dateStart": "2026-12-12T23:00:00Z",
+        "city": "Brasil",
+        "state": "SC",
+        "venue": "P12 (Parador 12)",
+        "artists": [
+            "Lagum"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-lagum-florianopolis"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FoA8",
+        "title": "Djavan: 50 Anos Só Sucessos - São Paulo",
+        "dateStart": "2026-12-12T23:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Mercado Livre Arena Pacaembu",
+        "artists": [
+            "Djavan"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/52a/ee9889b6-3eaf-4457-93cd-f311c0d6b52a_1802351_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-djavan-50-anos-so-sucessos-sao-paulo"
     }
 ]
