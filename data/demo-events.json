@@ -367,6 +367,25 @@
         "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-ca7riel-e-paco-amoroso-sao-paulo"
     },
     {
+        "id": "tm_ZFIMVHtnMZ17ap1d",
+        "title": "14 Bis | Data Extra | The Cavern Club",
+        "dateStart": "2026-11-20T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "The Cavern Club",
+        "artists": [
+            "14 Bis"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/14-bis-data-extra-the-cavern-club"
+    },
+    {
         "id": "tm_ZFIMVHtnMZ17Fb77",
         "title": "Gilsons - Cine Lido",
         "dateStart": "2026-11-20T01:00:00Z",
@@ -845,6 +864,25 @@
         "ticketUrl": "https://www.ticketmaster.com.br/event/ferrugem-qualistage"
     },
     {
+        "id": "tm_ZFIMVHtnMZ17aoG-",
+        "title": "Groundation - A Tribute To Bob Marley | Cine Lido",
+        "dateStart": "2026-12-06T01:00:00Z",
+        "city": "Brasil",
+        "state": "PR",
+        "venue": "Cine Lido",
+        "artists": [
+            "Groundation"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/51d/9583cf57-d2b9-4530-8fb7-e8967968a51d_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/groundation-a-tribute-to-bob-marley-cine-lido"
+    },
+    {
         "id": "tm_ZFIMVHtnMZ17aFvE",
         "title": "Maria Rita: Redescobrir Vol. 2 | João Pessoa",
         "dateStart": "2026-12-06T21:00:00Z",
@@ -919,43 +957,5 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/52a/ee9889b6-3eaf-4457-93cd-f311c0d6b52a_1802351_RETINA_PORTRAIT_3_2.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-djavan-50-anos-so-sucessos-sao-paulo"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17aA0t",
-        "title": "Pitty | Ribeirão Preto",
-        "dateStart": "2026-12-12T23:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "CHF Espaço Cultural",
-        "artists": [
-            "Pitty"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/pitty-ribeirao-preto"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17FwGb",
-        "title": "Roupa Nova | Ribeirão Preto",
-        "dateStart": "2026-12-13T00:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Multiplan Hall Ribeirão Shopping",
-        "artists": [
-            "Roupa Nova"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/2af/a6817216-a09a-4f95-841f-4137cbb6c2af_1847831_RETINA_PORTRAIT_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/roupa-nova-ribeirao-preto"
     }
 ]
