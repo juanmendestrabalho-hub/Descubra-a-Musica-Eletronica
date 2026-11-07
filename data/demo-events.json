@@ -63,63 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17aou7",
-        "title": "Marisa Monte Beneficente | Brava Arena Jockey",
-        "dateStart": "2026-11-06T23:00:00Z",
-        "city": "Brasil",
-        "state": "RJ",
-        "venue": "Brava Arena Jockey",
-        "artists": [
-            "Marisa Monte"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/42b/fbc9ff08-e82c-404e-b6e3-d538007f542b_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/marisa-monte-beneficente-brava-arena-jockey"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17afCa",
-        "title": "Boca Livre | The Cavern Club",
-        "dateStart": "2026-11-07T00:30:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "The Cavern Club",
-        "artists": [
-            "Boca Livre"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/boca-livre-the-cavern-club"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17Fb7A",
-        "title": "Ana Carolina - Cine Lido",
-        "dateStart": "2026-11-07T01:00:00Z",
-        "city": "Brasil",
-        "state": "PR",
-        "venue": "Cine Lido",
-        "artists": [
-            "Ana Carolina"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/b8e/2504ea92-1d47-4170-a028-640fadbf4b8e_1217801_TABLET_LANDSCAPE_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/ana-carolina-cine-lido"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17F4Zy",
         "title": "Sepultura: Celebrating Life Through Death",
         "dateStart": "2026-11-07T23:30:00Z",
@@ -957,5 +900,62 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/52a/ee9889b6-3eaf-4457-93cd-f311c0d6b52a_1802351_RETINA_PORTRAIT_3_2.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-djavan-50-anos-so-sucessos-sao-paulo"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aA0t",
+        "title": "Pitty | Ribeirão Preto",
+        "dateStart": "2026-12-12T23:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "CHF Espaço Cultural",
+        "artists": [
+            "Pitty"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/pitty-ribeirao-preto"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FwGb",
+        "title": "Roupa Nova | Ribeirão Preto",
+        "dateStart": "2026-12-13T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Multiplan Hall Ribeirão Shopping",
+        "artists": [
+            "Roupa Nova"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/2af/a6817216-a09a-4f95-841f-4137cbb6c2af_1847831_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/roupa-nova-ribeirao-preto"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FExf",
+        "title": "Mauricio Manieri no Qualistage | RJ",
+        "dateStart": "2026-12-13T00:30:00Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "venue": "Qualistage",
+        "artists": [
+            "Maurício Manieri"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/mauricio-manieri-2026-no-qualistage-rj"
     }
 ]
