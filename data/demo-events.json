@@ -63,82 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17F4Zy",
-        "title": "Sepultura: Celebrating Life Through Death",
-        "dateStart": "2026-11-07T23:30:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Mercado Livre Arena Pacaembu",
-        "artists": [
-            "Sepultura"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/fc2/0cad0f29-81f5-40d0-88ec-48a83c5eafc2_RETINA_PORTRAIT_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/sepultura-sao-paulo"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17afuK",
-        "title": "Boca Livre | Ribeirão Preto",
-        "dateStart": "2026-11-08T00:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Multiplan Hall Ribeirão Shopping",
-        "artists": [
-            "Boca Livre"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/boca-livre-multiplan-hall"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17FMQp",
-        "title": "Lagum | Rio de Janeiro",
-        "dateStart": "2026-11-08T00:30:00Z",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "venue": "Qualistage",
-        "artists": [
-            "Lagum"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-lagum-rio-de-janeiro"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17a7Ab",
-        "title": "André Frateschi | The Cavern Club",
-        "dateStart": "2026-11-08T00:30:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "The Cavern Club",
-        "artists": [
-            null
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/andre-frateschi-the-cavern-club"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17aFOs",
         "title": "Humberto Gessinger | The Cavern Club",
         "dateStart": "2026-11-11T00:30:00Z",
@@ -957,5 +881,62 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_16_9.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/mauricio-manieri-2026-no-qualistage-rj"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FMQ8",
+        "title": "Lagum | Curitiba",
+        "dateStart": "2026-12-14T01:00:00Z",
+        "city": "Brasil",
+        "state": "PR",
+        "venue": "Cine Lido",
+        "artists": [
+            "Lagum"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-lagum-curitiba"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17ae08",
+        "title": "Lenine | Brava Arena Jockey",
+        "dateStart": "2026-12-18T23:00:00Z",
+        "city": "Brasil",
+        "state": "RJ",
+        "venue": "Brava Arena Jockey",
+        "artists": [
+            "Lenine"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/lenine-brava-arena-jockey"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17afeZ",
+        "title": "Ozzmosis | The Cavern Club",
+        "dateStart": "2026-12-19T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "The Cavern Club",
+        "artists": [
+            "Ozzmosis"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/fe2/4dea843f-9d27-42d1-a4c7-4124cc69cfe2_RECOMENDATION_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/ozzmosis-the-cavern-club"
     }
 ]
