@@ -63,25 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17aFOs",
-        "title": "Humberto Gessinger | The Cavern Club",
-        "dateStart": "2026-11-11T00:30:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "The Cavern Club",
-        "artists": [
-            "Humberto Gessinger"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/humberto-gessinger-the-cavern-club"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17avup",
         "title": "Blitz | The Cavern Club",
         "dateStart": "2026-11-13T00:30:00Z",
@@ -938,5 +919,24 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/fe2/4dea843f-9d27-42d1-a4c7-4124cc69cfe2_RECOMENDATION_16_9.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/ozzmosis-the-cavern-club"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17Ff8_",
+        "title": "Maria Rita: Redescobrir Vol. 2 - Porto Alegre",
+        "dateStart": "2026-12-20T00:00:00Z",
+        "city": "Brasil",
+        "state": "RS",
+        "venue": "Auditório Araújo Vianna",
+        "artists": [
+            "Maria Rita"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_ARTIST_PAGE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/maria-rita-porto-alegre"
     }
 ]
