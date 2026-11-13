@@ -63,44 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17avup",
-        "title": "Blitz | The Cavern Club",
-        "dateStart": "2026-11-13T00:30:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "The Cavern Club",
-        "artists": [
-            "Blitz"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/blitz-the-cavern-club"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17kv0O",
-        "title": "The Cat Empire na Audio - SP",
-        "dateStart": "2026-11-13T00:30:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Audio",
-        "artists": [
-            "The Cat Empire"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/558/5d550d5b-4e20-4f3c-9b1d-7a62544b9558_TABLET_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/the-cat-empire-na-audio-sp"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17F40Y",
         "title": "Nando Reis no Qualistage - RJ",
         "dateStart": "2026-11-14T00:30:00Z",
@@ -118,6 +80,25 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_ARTIST_PAGE_3_2.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/nando-reis-no-qualistage---rj"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17avuN",
+        "title": "Blitz | The Cavern Club",
+        "dateStart": "2026-11-14T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "The Cavern Club",
+        "artists": [
+            "Blitz"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/blitz-the-cavern-club"
     },
     {
         "id": "tm_ZFIMVHtnMZ17kv0-",
@@ -938,5 +919,43 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_ARTIST_PAGE_3_2.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/maria-rita-porto-alegre"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17afGM",
+        "title": "Ney Matogrosso | Bloco na Rua",
+        "dateStart": "2026-12-20T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Multiplan Hall Ribeirão Shopping",
+        "artists": [
+            "Ney Matogrosso"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/fcd/03b354d3-845d-4572-982a-c17d11b24fcd_1824721_TABLET_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/ney-matogrosso-bloco-de-rua"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aob7",
+        "title": "Di Ferrero e Charlie Brown Jr. | Qualistage",
+        "dateStart": "2026-12-20T01:00:00Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "venue": "Qualistage",
+        "artists": [
+            null
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/di-ferrero-e-charlie-brown-jr-qualistage"
     }
 ]
