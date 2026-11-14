@@ -63,63 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17F40Y",
-        "title": "Nando Reis no Qualistage - RJ",
-        "dateStart": "2026-11-14T00:30:00Z",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "venue": "Qualistage",
-        "artists": [
-            "Nando Reis"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_ARTIST_PAGE_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/nando-reis-no-qualistage---rj"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17avuN",
-        "title": "Blitz | The Cavern Club",
-        "dateStart": "2026-11-14T00:30:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "The Cavern Club",
-        "artists": [
-            "Blitz"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/blitz-the-cavern-club"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17kv0-",
-        "title": "The Cat Empire no Circo Voador - RJ",
-        "dateStart": "2026-11-14T00:30:00Z",
-        "city": "Brasil",
-        "state": "RJ",
-        "venue": "Circo Voador",
-        "artists": [
-            "The Cat Empire"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/558/5d550d5b-4e20-4f3c-9b1d-7a62544b9558_TABLET_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/the-cat-empire-no-circo-voador-rj"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17ae0f",
         "title": "Martinho e Mart´nalia | Brava Arena Jockey",
         "dateStart": "2026-11-14T23:00:00Z",
@@ -957,5 +900,62 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/di-ferrero-e-charlie-brown-jr-qualistage"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FtZg",
+        "title": "Rodrigo Teaser no Qualistage | RJ",
+        "dateStart": "2026-12-20T22:00:00Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "venue": "Qualistage",
+        "artists": [
+            "Rodrigo Teaser"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/b90/eae4e593-edbb-4135-8c02-3d29ce0dcb90_1246031_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/rodrigo-teaser-no-qualistage-dezembro-rj"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aaaS",
+        "title": "Geraldo Azevedo e Elba Ramalho | Brava Arena Jockey",
+        "dateStart": "2026-12-27T23:00:00Z",
+        "city": "Brasil",
+        "state": "RJ",
+        "venue": "Brava Arena Jockey",
+        "artists": [
+            "Geraldo Azevedo"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/geraldo-azevedo-e-elba-ramalho-brava-arena-jockey"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aaZ7",
+        "title": "Freya Skye: Stars Align Tour | São Paulo",
+        "dateStart": "2027-01-28T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Audio",
+        "artists": [
+            "Freya Skye"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/bd1/4bf9a435-fa2b-4157-a4c9-add083e81bd1_RECOMENDATION_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/vg-freya-skye"
     }
 ]
