@@ -63,63 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17ae0f",
-        "title": "Martinho e Mart´nalia | Brava Arena Jockey",
-        "dateStart": "2026-11-14T23:00:00Z",
-        "city": "Brasil",
-        "state": "RJ",
-        "venue": "Brava Arena Jockey",
-        "artists": [
-            "Martinho da Vila"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/martinho-e-martnalia-brava-arena-jockey"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17aF-0",
-        "title": "Guilherme Arantes | Tokio Marine Hall",
-        "dateStart": "2026-11-15T00:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Tokio Marine Hall",
-        "artists": [
-            null
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/guilherme-arantes-tokio-marine-hall"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17avFA",
-        "title": "Blitz | Ribeirão Preto",
-        "dateStart": "2026-11-15T00:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Multiplan Hall Ribeirão Shopping",
-        "artists": [
-            "Blitz"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/blitz-ribeirao-preto"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17kKFI",
         "title": "CA7RIEL & Paco Amoroso: Free Spirits World Tour - São Paulo",
         "dateStart": "2026-11-19T00:00:00Z",
@@ -957,5 +900,62 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/bd1/4bf9a435-fa2b-4157-a4c9-add083e81bd1_RECOMENDATION_16_9.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/vg-freya-skye"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17a3QK",
+        "title": "Freya Skye: Stars Align Tour | São Paulo (Data Extra)",
+        "dateStart": "2027-01-28T23:45:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Audio",
+        "artists": [
+            "Freya Skye"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/bd1/4bf9a435-fa2b-4157-a4c9-add083e81bd1_RECOMENDATION_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/vg-freya-skye-data-extra"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17apqz",
+        "title": "Pitbull: I'm Back | São Paulo",
+        "dateStart": "2027-01-31T23:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Allianz Parque",
+        "artists": [
+            "Pitbull"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/918/bd324c03-b456-4cb9-87b2-fe8664cb1918_SOURCE",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/pitbull-vg"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17FACe",
+        "title": "KAROL G: Viajando Por El Mundo Tropitour",
+        "dateStart": "2027-02-12T23:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Mercado Livre Arena Pacaembu",
+        "artists": [
+            "Karol G"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/aae/d27e184b-9f69-4963-9027-d3b5572a4aae_TABLET_LANDSCAPE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-karol-g"
     }
 ]
