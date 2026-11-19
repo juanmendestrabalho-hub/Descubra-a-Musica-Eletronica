@@ -63,25 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17kKFI",
-        "title": "CA7RIEL & Paco Amoroso: Free Spirits World Tour - São Paulo",
-        "dateStart": "2026-11-19T00:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Espaço Unimed -  AVCB nº774465-Alvará de Funcionamento 2024/05734-00",
-        "artists": [
-            "CA7RIEL & Paco Amoroso"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/6e5/ce33d894-56be-4c01-aa83-5bea7ddd46e5_RECOMENDATION_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-ca7riel-e-paco-amoroso-sao-paulo"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17ap1d",
         "title": "14 Bis | Data Extra | The Cavern Club",
         "dateStart": "2026-11-20T00:30:00Z",
@@ -957,5 +938,24 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/aae/d27e184b-9f69-4963-9027-d3b5572a4aae_TABLET_LANDSCAPE_3_2.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-karol-g"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17Fzbd",
+        "title": "Foo Fighters: Take Cover Tour - Belo Horizonte",
+        "dateStart": "2027-02-18T23:00:00Z",
+        "city": "Brasil",
+        "state": "MG",
+        "venue": "Arena MRV",
+        "artists": [
+            "Foo Fighters"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/bc0/8341ed56-92be-4c3a-a4d2-7f1e76f09bc0_CUSTOM.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-foo-fighters-belo-horizonte"
     }
 ]
