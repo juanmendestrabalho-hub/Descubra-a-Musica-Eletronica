@@ -63,15 +63,15 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17FE1A",
+        "id": "tm_ZFIMVHtnMZ17FI73",
         "title": "Best Of Blues And Rock",
-        "dateStart": "2026-11-20T18:30:00Z",
+        "dateStart": "2026-11-21T18:30:00Z",
         "city": "Brasil",
         "state": "SP",
         "venue": "Auditório do Ibirapuera (Platéia Externa)",
         "artists": [
             null,
-            "Eddie Vedder"
+            "Roger Daltrey"
         ],
         "genres": [
             "Eletrônica",
@@ -81,44 +81,6 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/7be/4e1e9428-29ec-401f-aa45-f1577614b7be_105421_TABLET_LANDSCAPE_3_2.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/best-of-blues-and-rock"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17kKFE",
-        "title": "CA7RIEL & Paco Amoroso: Free Spirits World Tour - Rio de Janeiro",
-        "dateStart": "2026-11-21T00:00:00Z",
-        "city": "Brasil",
-        "state": "RJ",
-        "venue": "Vivo Rio",
-        "artists": [
-            "CA7RIEL & Paco Amoroso"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/6e5/ce33d894-56be-4c01-aa83-5bea7ddd46e5_RECOMENDATION_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-ca7riel-e-paco-amoroso-rio-de-janeiro"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17aA0o",
-        "title": "14 Bis | The Cavern Club",
-        "dateStart": "2026-11-21T00:30:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "The Cavern Club",
-        "artists": [
-            "14 Bis"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/14-bis-the-cavern-club"
     },
     {
         "id": "tm_ZFIMVHtnMZ17aA0p",
@@ -957,5 +919,62 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/bc0/8341ed56-92be-4c3a-a4d2-7f1e76f09bc0_CUSTOM.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-foo-fighters-sao-paulo"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17kpOS",
+        "title": "CPM 22 DVL Rock Festival - Cascavel",
+        "dateStart": "2027-02-21T02:00:00Z",
+        "city": "Brasil",
+        "state": "PR",
+        "venue": "Black Cap Eventos",
+        "artists": [
+            "CPM22"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/cpm-22-dvl-rock-festival-cascavel"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17a3uZ",
+        "title": "Oswaldo Montenegro | Tokio Marine Hall",
+        "dateStart": "2027-03-07T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Tokio Marine Hall",
+        "artists": [
+            "Oswaldo Montenegro"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/oswaldo-montenegro-tokio-marine-hall"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17k4Oa",
+        "title": "Kid Abelha - Florianópolis",
+        "dateStart": "2027-03-07T00:00:00Z",
+        "city": "Brasil",
+        "state": "SC",
+        "venue": "Arena Opus",
+        "artists": [
+            null
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/kid-abelha-florianopolis"
     }
 ]
