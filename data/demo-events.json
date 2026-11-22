@@ -63,15 +63,15 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17FI73",
+        "id": "tm_ZFIMVHtnMZ17FI7K",
         "title": "Best Of Blues And Rock",
-        "dateStart": "2026-11-21T18:30:00Z",
+        "dateStart": "2026-11-22T18:30:00Z",
         "city": "Brasil",
         "state": "SP",
         "venue": "Auditório do Ibirapuera (Platéia Externa)",
         "artists": [
             null,
-            "Roger Daltrey"
+            "Eddie Vedder"
         ],
         "genres": [
             "Eletrônica",
@@ -81,63 +81,6 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/7be/4e1e9428-29ec-401f-aa45-f1577614b7be_105421_TABLET_LANDSCAPE_3_2.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/best-of-blues-and-rock"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17aA0p",
-        "title": "14 Bis e Beto Guedes | Ribeirão Preto",
-        "dateStart": "2026-11-22T00:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Multiplan Hall Ribeirão Shopping",
-        "artists": [
-            "14 Bis"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/14-bis-e-beto-guedes"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17aA08",
-        "title": "Lets Groove | The Cavern Club",
-        "dateStart": "2026-11-22T00:30:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "The Cavern Club",
-        "artists": [
-            "Let's Groove"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/lets-groove-the-cavern-club"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17adZM",
-        "title": "Dino Fonseca | Qualistage",
-        "dateStart": "2026-11-22T00:30:00Z",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "venue": "Qualistage",
-        "artists": [
-            null
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/dino-fonseca-qualistage-2026"
     },
     {
         "id": "tm_ZFIMVHtnMZ17FMQd",
@@ -976,5 +919,43 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/kid-abelha-florianopolis"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17a4r3",
+        "title": "U2: The Greatest Show On Earth World Tour | São Paulo",
+        "dateStart": "2027-03-11T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "MorumBis",
+        "artists": [
+            "U2"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/e91/b548f1f2-bcac-4f28-b165-1d06fdc8be91_ARTIST_PAGE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/u2"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17kKvo",
+        "title": "Lollapalooza Brasil 2027",
+        "dateStart": "2027-03-19T14:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Autódromo de Interlagos",
+        "artists": [
+            "Lollapalooza"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/57a/67cefd34-cd13-49ff-8338-10104309c57a_SOURCE",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/lollapaloozabr"
     }
 ]
