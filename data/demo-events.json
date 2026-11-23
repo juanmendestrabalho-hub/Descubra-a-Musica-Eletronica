@@ -63,64 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17FI7K",
-        "title": "Best Of Blues And Rock",
-        "dateStart": "2026-11-22T18:30:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Auditório do Ibirapuera (Platéia Externa)",
-        "artists": [
-            null,
-            "Eddie Vedder"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/7be/4e1e9428-29ec-401f-aa45-f1577614b7be_105421_TABLET_LANDSCAPE_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/best-of-blues-and-rock"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17FMQd",
-        "title": "Sandro Luiz | Qualistage",
-        "dateStart": "2026-11-22T19:00:00Z",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "venue": "Qualistage",
-        "artists": [
-            "Sandro Luiz"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_CUSTOM.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/sandro-luiz-qualistage"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17FJ-x",
-        "title": "Rodrigo Teaser - Ribeirão Preto",
-        "dateStart": "2026-11-22T22:30:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Multiplan Hall Ribeirão Shopping",
-        "artists": [
-            "Rodrigo Teaser"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/b90/eae4e593-edbb-4135-8c02-3d29ce0dcb90_1246031_RETINA_PORTRAIT_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/rodrigo-teaser-ribeirao-preto"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17FyjO",
         "title": "New Order | São Paulo (Data Extra)",
         "dateStart": "2026-11-24T01:00:00Z",
@@ -957,5 +899,24 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/57a/67cefd34-cd13-49ff-8338-10104309c57a_SOURCE",
         "ticketUrl": "https://www.ticketmaster.com.br/event/lollapaloozabr"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17F3_b",
+        "title": "Louis Tomlinson: How Did We Get Here? Latin American Tour",
+        "dateStart": "2027-04-07T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Suhai Music Hall",
+        "artists": [
+            "Louis Tomlinson"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/68c/b3dcece4-12b0-4210-8bb1-a0a36478768c_CUSTOM.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/vg-louis-tomlinson"
     }
 ]
