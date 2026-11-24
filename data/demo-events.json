@@ -63,25 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17FyjO",
-        "title": "New Order | São Paulo (Data Extra)",
-        "dateStart": "2026-11-24T01:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Espaço Unimed -  AVCB nº774465-Alvará de Funcionamento 2024/05734-00",
-        "artists": [
-            "New Order"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/a6b/182bb789-0627-430d-8cc2-95a3c3224a6b_RETINA_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/new-order-data-extra"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17FJC_",
         "title": "New Order - São Paulo",
         "dateStart": "2026-11-26T01:00:00Z",
@@ -918,5 +899,24 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/a/68c/b3dcece4-12b0-4210-8bb1-a0a36478768c_CUSTOM.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/vg-louis-tomlinson"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17aFJ6",
+        "title": "Criolo: Nó na Orelha 15 Anos | Belo Horizonte",
+        "dateStart": "2027-04-11T00:00:00Z",
+        "city": "Brasil",
+        "state": "MG",
+        "venue": "Arena Hall BH",
+        "artists": [
+            "Criolo"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_ARTIST_PAGE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-criolo-belo-horizonte"
     }
 ]
