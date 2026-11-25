@@ -255,6 +255,25 @@
         "ticketUrl": "https://www.ticketmaster.com.br/event/guilherme-arantes-brava-arena-jockey"
     },
     {
+        "id": "tm_ZFIMVHtnMZ17abFd",
+        "title": "Hey Jude: Especial Revolver Na Íntegra | The Cavern Club",
+        "dateStart": "2026-12-05T00:30:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "The Cavern Club",
+        "artists": [
+            "Hey Jude"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/hey-jude-especial-revolver-na-integra-the-cavern-club"
+    },
+    {
         "id": "tm_ZFIMVHtnMZ17avQb",
         "title": "Geriatricus | Qualistage",
         "dateStart": "2026-12-05T00:30:00Z",
@@ -464,6 +483,25 @@
         "ticketUrl": "https://www.ticketmaster.com.br/event/pitty-ribeirao-preto"
     },
     {
+        "id": "tm_ZFIMVHtnMZ17aKu4",
+        "title": "Jota Quest: Segue o Baile | Rio de Janeiro",
+        "dateStart": "2026-12-12T23:00:00Z",
+        "city": "Brasil",
+        "state": "RJ",
+        "venue": "Brava Arena Jockey",
+        "artists": [
+            "Jota Quest"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/jota-quest-rio-de-janeiro"
+    },
+    {
         "id": "tm_ZFIMVHtnMZ17FwGb",
         "title": "Roupa Nova | Ribeirão Preto",
         "dateStart": "2026-12-13T00:00:00Z",
@@ -578,6 +616,25 @@
         "ticketUrl": "https://www.ticketmaster.com.br/event/maria-rita-porto-alegre"
     },
     {
+        "id": "tm_ZFIMVHtnMZ17aKuf",
+        "title": "Jota Quest: Segue o Baile | São Paulo",
+        "dateStart": "2026-12-20T00:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Suhai Music Hall",
+        "artists": [
+            "Jota Quest"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/jota-quest-sao-paulo"
+    },
+    {
         "id": "tm_ZFIMVHtnMZ17afGM",
         "title": "Ney Matogrosso | Bloco na Rua",
         "dateStart": "2026-12-20T00:00:00Z",
@@ -635,6 +692,25 @@
         "ticketUrl": "https://www.ticketmaster.com.br/event/rodrigo-teaser-no-qualistage-dezembro-rj"
     },
     {
+        "id": "tm_ZFIMVHtnMZ17a4-w",
+        "title": "Ensaio de Bateria do Monobloco | Brava Arena Jockey",
+        "dateStart": "2026-12-26T23:00:00Z",
+        "city": "Brasil",
+        "state": "RJ",
+        "venue": "Brava Arena Jockey",
+        "artists": [
+            "Monobloco"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/4fb/a0c237f6-8de4-4404-a45f-0c8f688974fb_1699371_TABLET_LANDSCAPE_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/ensaio-de-bateria-do-monobloco-brava-arena-jockey"
+    },
+    {
         "id": "tm_ZFIMVHtnMZ17aaaS",
         "title": "Geraldo Azevedo e Elba Ramalho | Brava Arena Jockey",
         "dateStart": "2026-12-27T23:00:00Z",
@@ -652,6 +728,25 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/geraldo-azevedo-e-elba-ramalho-brava-arena-jockey"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17apkZ",
+        "title": "Saint Levant | São Paulo",
+        "dateStart": "2027-01-24T23:00:00Z",
+        "city": "Brasil",
+        "state": "SP",
+        "venue": "Cine Joia",
+        "artists": [
+            "Saint Levant"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/130/06ba4e22-a1ba-4046-b822-f55c0e34f130_SOURCE",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/saint-levant"
     },
     {
         "id": "tm_ZFIMVHtnMZ17aaZ7",
@@ -863,14 +958,14 @@
         "ticketUrl": "https://www.ticketmaster.com.br/event/u2"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17kKvo",
-        "title": "Lollapalooza Brasil 2027",
-        "dateStart": "2027-03-19T14:00:00Z",
+        "id": "tm_ZFIMVHtnMZ17abFk",
+        "title": "Calema | Tokio Marine Hall",
+        "dateStart": "2027-03-14T00:00:00Z",
         "city": "Brasil",
         "state": "SP",
-        "venue": "Autódromo de Interlagos",
+        "venue": "Tokio Marine Hall",
         "artists": [
-            "Lollapalooza"
+            "Calema"
         ],
         "genres": [
             "Eletrônica",
@@ -878,45 +973,7 @@
         ],
         "priceMin": null,
         "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/57a/67cefd34-cd13-49ff-8338-10104309c57a_SOURCE",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/lollapaloozabr"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17F3_b",
-        "title": "Louis Tomlinson: How Did We Get Here? Latin American Tour",
-        "dateStart": "2027-04-07T00:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Suhai Music Hall",
-        "artists": [
-            "Louis Tomlinson"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/68c/b3dcece4-12b0-4210-8bb1-a0a36478768c_CUSTOM.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/vg-louis-tomlinson"
-    },
-    {
-        "id": "tm_ZFIMVHtnMZ17aFJ6",
-        "title": "Criolo: Nó na Orelha 15 Anos | Belo Horizonte",
-        "dateStart": "2027-04-11T00:00:00Z",
-        "city": "Brasil",
-        "state": "MG",
-        "venue": "Arena Hall BH",
-        "artists": [
-            "Criolo"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_ARTIST_PAGE_3_2.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/venda-geral-criolo-belo-horizonte"
+        "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/calema-tokio-marine-hall"
     }
 ]
