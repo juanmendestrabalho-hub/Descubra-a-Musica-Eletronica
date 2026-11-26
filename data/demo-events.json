@@ -63,25 +63,6 @@
         "ticketUrl": "https://q2ingressos.com.br"
     },
     {
-        "id": "tm_ZFIMVHtnMZ17FJC_",
-        "title": "New Order - São Paulo",
-        "dateStart": "2026-11-26T01:00:00Z",
-        "city": "Brasil",
-        "state": "SP",
-        "venue": "Espaço Unimed -  AVCB nº774465-Alvará de Funcionamento 2024/05734-00",
-        "artists": [
-            "New Order"
-        ],
-        "genres": [
-            "Eletrônica",
-            "Festival"
-        ],
-        "priceMin": null,
-        "ticketStatus": "available",
-        "image": "https://s1.ticketm.net/dam/a/a6b/182bb789-0627-430d-8cc2-95a3c3224a6b_RETINA_LANDSCAPE_16_9.jpg",
-        "ticketUrl": "https://www.ticketmaster.com.br/event/new-order"
-    },
-    {
         "id": "tm_ZFIMVHtnMZ17a34Z",
         "title": "Revelação & Xande de Pilares | Rio de Janeiro",
         "dateStart": "2026-11-27T22:00:00Z",
@@ -975,5 +956,24 @@
         "ticketStatus": "available",
         "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg",
         "ticketUrl": "https://www.ticketmaster.com.br/event/calema-tokio-marine-hall"
+    },
+    {
+        "id": "tm_ZFIMVHtnMZ17a4O_",
+        "title": "Gang of Four | Cine Lido",
+        "dateStart": "2027-03-15T00:00:00Z",
+        "city": "Brasil",
+        "state": "PR",
+        "venue": "Cine Lido",
+        "artists": [
+            "Gang of Four"
+        ],
+        "genres": [
+            "Eletrônica",
+            "Festival"
+        ],
+        "priceMin": null,
+        "ticketStatus": "available",
+        "image": "https://s1.ticketm.net/dam/a/3ed/92424258-0373-4891-86ae-0a51253ae3ed_RETINA_PORTRAIT_3_2.jpg",
+        "ticketUrl": "https://www.ticketmaster.com.br/event/gang-of-four-cine-lido"
     }
 ]
